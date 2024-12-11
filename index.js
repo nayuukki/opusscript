@@ -19,7 +19,7 @@ var OpusError = {
     "-7": "Memory allocation fail"
 };
 var VALID_SAMPLING_RATES = [8000, 12000, 16000, 24000, 48000];
-var MAX_FRAME_SIZE = 48000 * 60 / 1000;
+var MAX_FRAME_SIZE = 960 * 6;
 var MAX_PACKET_SIZE = 1276 * 3;
 
 function OpusScript(samplingRate, channels, application, options) {
