@@ -3,7 +3,7 @@
 #include "../opus-native/include/opus.h"
 
 #define APPLICATION OPUS_APPLICATION_AUDIO
-#define MAX_PACKET_SIZE 1276 * 3
+#define MAX_PACKET_SIZE 4000
 #define MAX_FRAME_SIZE 960 * 6
 
 using namespace emscripten;

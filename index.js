@@ -19,7 +19,7 @@ var OpusError = {
     "-7": "Memory allocation fail"
 };
 var VALID_SAMPLING_RATES = [8000, 12000, 16000, 24000, 48000];
-var MAX_FRAME_SIZE = 2880; // should be fine I guess
+var MAX_FRAME_SIZE = 960 * 6; // should be fine I guess
 var MAX_PACKET_SIZE = 4000; // maximum that opus supports
 
 function OpusScript(samplingRate, channels, application, options) {
